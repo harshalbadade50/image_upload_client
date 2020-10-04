@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.select-file, .crop-section, .preview-section{
+  padding: 10px;
+}
+
+.image-section{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-section img{
+  padding: 5px;
+  box-sizing: border-box;
+}
+.select-file-container{
+  display: flex;
+}
+.file-select-msg{
+  color: gray;
+  font-size: 12px;
+  font-style: italic;
+}
+.no-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  font-size: 14px;
+  color: gray;
+  font-style: italic;
+}
